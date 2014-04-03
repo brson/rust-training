@@ -20,14 +20,12 @@
 
 # The Rust elevator pitch
 
-Rust is a systems programming language that runs blazingly fast, prevents all crashes, and eliminates race conditions.
+Rust is a systems programming language that runs blazingly fast, prevents almost all crashes, and eliminates race conditions.
 
 **Design principles**
 
 - *Memory safety* - Rust programs don't segfault. It's impossible to even create pointers that point to invalid memory.
-
 - *Zero-cost abstractions* - Runtime costs are clear, often free (after optimization), and map efficiently to the machine architecture.
-
 - *Practicality* - Rust is designed through an iterative process that involves actually building large-scale, parallel applications.
 
 # Sidestepping the high/low-level spectrum
@@ -113,7 +111,7 @@ Pick Rust when performance, reliability, scalability, and maintainability are am
 
 - *Memory safety*
 
-- *Comperable performance*
+- *Comparable performance*
 
 - *Similar allocation models*
 
@@ -155,7 +153,5 @@ including libraries will still be *immature*.
 # Should you use Rust?
 
 # Questions?
-
-- what about networking in Rust?
 
 
